@@ -1,0 +1,26 @@
+postoje 4 razlicita entiteta koja se nalaze u bazi i mogu se dodavati/uredivati/brisati
+
+samo korisnik koji je dodao 'player pilot build' i 'player mech build' moze uredivati isti
+svi korisnici ih mogu vidjeti
+
+samo game masteri (vece pravo pristupa) mogu vidjeti 'enemy pilot builds' i 'enemy mech builds'
+samo game master koji je dodao enemy build moze ga uredivati
+
+nalaze se dva racuna, administracijski racun moze pregledavati vise podataka i takoder ih uredivati/brisati
+admin username: game master
+admin password: master
+
+playeri su korisnici s manje pristupa
+player username: player
+player password: player
+
+status (game master/player) se moze vidjeti na profilnoj stranici korisnika (root direktorij)
+
+Prije nego što sam deploy-ao aplikaciju sam zipao projekt u arhivu i spremio u donje dvije arhive.
+
+Aplikacija je hostana na surge-u.
+
+LINK na hostanu aplikaciju:
+http://mute-wheel.surge.sh/
+
+Također, ako sam slučajno krivo exportao bazu možete mi se javiti da ponovno exportam.
